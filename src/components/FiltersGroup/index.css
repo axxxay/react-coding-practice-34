@@ -1,0 +1,97 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-con {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border: 0px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.search-input {
+  background-color: #f1f5f9;
+  border: 0px;
+  outline: none;
+  height: 35px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.search-icon {
+  color: #64748b;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.category-heading {
+  font-size: 16px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.category-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.category-item {
+  font-size: 16px;
+  color: #64748b;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+.rating-con {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.rating-img {
+  width: 130px;
+}
+
+.rating-text {
+  margin: 6px;
+  margin-left: 13px;
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.reset-button {
+  background-color: #ffffff;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  color: #0967d2;
+  font-size: 11px;
+  font-family: 'Roboto';
+  padding: 5px 20px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .reset-button {
+    padding: 5px 10px;
+  }
+}
+
+.activeClass {
+  color: #0967d2;
+}

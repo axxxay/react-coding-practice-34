@@ -1,0 +1,88 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.failure-image {
+  width: 50%;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.failure-desc {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 13px;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .failure-image {
+    width: 70%;
+    margin-top: 25px;
+    width: 100%;
+  }
+}
